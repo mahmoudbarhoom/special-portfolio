@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>محفظة مميزة</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Start settings box -->
+  <div class="settings-box">
+    <div class="toggle-setting">
+      <i class="fa-solid fa-gear"></i>
+    </div>
+    <div class="settings-container">
+      <div class="option-box">
+        <h4>الألوان والخلفية</h4>
+        <ul class="colors-list">
+          <li class="active" data-color="#ffe206" data-landing="1.jpg" data-about="6.png"></li>
+          <li data-color="#1c07da" data-landing="2.jpg" data-about="7.png"></li>
+          <li data-color="#b412e0" data-landing="3.jpg" data-about="8.png"></li>
+          <li data-color="#FE7743" data-landing="4.jpg" data-about="9.png"></li>
+          <li data-color="#a50505" data-landing="4.jpg" data-about="9.png"></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- End settings box -->
+
+  <!-- Start nav bullets -->
+  <div class="nav-bullets">
+    <div class="bullet" data-section=".landing-page">
+      <div class="tooltip">الرئيسية</div>
+    </div>
+    <div class="bullet" data-section=".about-us">
+      <div class="tooltip">عني</div>
+    </div>
+    <div class="bullet" data-section=".skills">
+      <div class="tooltip">مهاراتي</div>
+    </div>
+    <div class="bullet" data-section=".gallery">
+      <div class="tooltip">معرض أعمالي</div>
+    </div>
+    <div class="bullet" data-section=".timeline">
+      <div class="tooltip">الجدول الزمني</div>
+    </div>
+    <div class="bullet" data-section=".features">
+      <div class="tooltip">المميزات</div>
+    </div>
+    <div class="bullet" data-section=".contact">
+      <div class="tooltip">اتصل بنا</div>
+    </div>
+  </div>
+  <!-- End nav bullets -->
+
+  <!-- Start landing page -->
+  <div class="landing-page" style="background-image: url('imgs/1.jpg');">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="header-area">
+        <div class="logo">تصميم مميز</div>
+        <div class="links-container">
+          <ul class="links">
+            <li><a href="#" data-section=".about-us">عني</a></li>
+            <li><a href="#" data-section=".skills">مهاراتي</a></li>
+            <li><a href="#" data-section=".gallery">معرض الأعمال</a></li>
+            <li><a href="#" data-section=".timeline">الجدول الزمني</a></li>
+            <li><a href="#" data-section=".features">المميزات</a></li>
+            <li><a href="#" data-section=".contact">اتصل بنا</a></li>
+          </ul>
+          <button class="toggle-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="introduction">
+      <h1>أنا <span>محمود</span></h1>
+      <p>مصمم ومبرمج مواقع ولدي خبرة أكثر من 4 سنوات في بناء تطبيقات جذابة للعملاء تساعدك في تحقيق أهدافك. إذا كان لديك تصميم وتريد تحويله إلى موقع، أو لديك فكرة لموقع إلكتروني تريد إنشاءه، بالإضافة إلى تعديل أي موقع ليناسب المطلوب، أو إنشاء متجر إلكتروني يجذب العملاء ويبيع منتجاتك.</p>
+    </div>
+  </div>
+  <!-- End landing page -->
+
+  <!-- Start about us -->
+  <div class="container">
+    <div class="about-us">
+      <div class="info-box">
+        <h2>عني</h2>
+        <p>مصمم ومبرمج مواقع ولدي خبرة أكثر من 4 سنوات في بناء تطبيقات جذابة للعملاء تساعدك في تحقيق أهدافك. إذا كان لديك تصميم وتريد تحويله إلى موقع، أو لديك فكرة لموقع إلكتروني تريد إنشاءه، بالإضافة إلى تعديل أي موقع ليناسب المطلوب، أو إنشاء متجر إلكتروني يجذب العملاء ويبيع منتجاتك.</p>
+      </div>
+      <div class="img-box">
+        <img src="imgs/6.png" class="about-img" alt="صورة توضيحية عن المبرمج محمود">
+      </div>
+    </div>
+  </div>
+  <!-- End about us -->
+
+  <!-- Start our skills -->
+  <div class="skills">
+    <div class="container">
+      <h2>مهاراتي</h2>
+      <div class="skill-box">
+        <div class="skill-name">HTML</div>
+        <div class="skill-progress">
+          <span data-progress="95%" style="width: 0;"></span>
+        </div>
+      </div>
+      <div class="skill-box">
+        <div class="skill-name">CSS</div>
+        <div class="skill-progress">
+          <span data-progress="90%" style="width: 0;"></span>
+        </div>
+      </div>
+      <div class="skill-box">
+        <div class="skill-name">جافا سكريبت</div>
+        <div class="skill-progress">
+          <span data-progress="70%" style="width: 0;"></span>
+        </div>
+      </div>
+      <div class="skill-box">
+        <div class="skill-name">Bootstrap</div>
+        <div class="skill-progress">
+          <span data-progress="70%" style="width: 0;"></span>
+        </div>
+      </div>
+      <div class="skill-box">
+        <div class="skill-name">جيت / جيتهاب</div>
+        <div class="skill-progress">
+          <span data-progress="50%" style="width: 0;"></span>
+        </div>
+      </div>
+      <div class="skill-box">
+        <div class="skill-name">PHP</div>
+        <div class="skill-progress">
+          <span data-progress="70%" style="width: 0;"></span>
+        </div>
+      </div>
+      <div class="skill-box">
+        <div class="skill-name">MySQL</div>
+        <div class="skill-progress">
+          <span data-progress="70%" style="width: 0;"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End our skills -->
+
+  <!-- Start our gallery -->
+  <div class="gallery">
+    <div class="container">
+      <h2>معرض أعمالي</h2>
+      <div class="imgs-box">
+        <img src="imgs/00.png" alt="مشروع محفظة شخصية">
+        <img src="imgs/01.jpg" alt="مشروع تصميم الصورة الرمزية">
+        <img src="imgs/02.png" alt="مشروع آلة حاسبة">
+        <img src="imgs/03.jpg" alt="مشروع صفحة هبوط">
+        <img src="imgs/04.png" alt="مشروع النظام الشمسي">
+        <img src="imgs/05.png" alt="مشروع شريط تنقل النظام الشمسي">
+        <img src="imgs/1.jpg" alt="مشروع تصميم 1">
+        <img src="imgs/2.jpg" alt="مشروع تصميم 2">
+        <img src="imgs/3.jpg" alt="مشروع تصميم 3">
+        <img src="imgs/4.jpg" alt="مشروع تصميم 4">
+      </div>
+    </div>
+  </div>
+  <!-- End our gallery -->
+
+  <!-- Start timeline -->
+  <div class="timeline">
+    <div class="container">
+      <div class="timeline-content">
+        <div class="year">2025</div>
+        <div class="right">
+          <div class="content">
+            <h3>خبرة HTML</h3>
+            <p>أجيد إتقانها والتعامل معها بكل سهولة ولدي عدة مشاريع.</p>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="left">
+          <div class="content">
+            <h3>خبرة CSS</h3>
+            <p>أجيد التعامل والتنسيق لجميع المشاريع.</p>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="right">
+          <div class="content">
+            <h3>خبرة جافا سكريبت</h3>
+            <p>أجيد إنشاء مشاريع بها ولدي مشاريع جاهزة يمكنك الاطلاع عليها.</p>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="left">
+          <div class="content">
+            <h3>تعلم جيت وجيتهاب</h3>
+            <p>أجيد إنشاء مشاريع بها ولدي مشاريع جاهزة يمكنك الاطلاع عليها.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End timeline -->
+
+  <!-- Start features -->
+  <div class="features">
+    <div class="container">
+      <h2>مميزاتنا</h2>
+      <div class="feat-box">
+        <img src="imgs/icon1.png" alt="أيقونة التطوير">
+        <h4>التطوير</h4>
+            <p>أجيد إنشاء مشاريع بها ولدي مشاريع جاهزة يمكنك الاطلاع عليها.</p>
+      </div>
+      <div class="feat-box">
+        <img src="imgs/icon2.png" alt="أيقونة التصميم">
+        <h4>التصميم</h4>
+            <p>أجيد إنشاء مشاريع بها ولدي مشاريع جاهزة يمكنك الاطلاع عليها.</p>
+      </div>
+      <div class="feat-box">
+        <img src="imgs/icon3.png" alt="أيقونة الدعم">
+        <h4>الدعم</h4>
+            <p>أجيد إنشاء مشاريع بها ولدي مشاريع جاهزة يمكنك الاطلاع عليها.</p>
+      </div>
+      <div class="feat-box">
+        <img src="imgs/icon4.png" alt="أيقونة التسويق">
+        <h4>التسويق</h4>
+            <p>أجيد إنشاء مشاريع بها ولدي مشاريع جاهزة يمكنك الاطلاع عليها.</p>
+      </div>
+      <div class="feat-box">
+        <img src="imgs/icon5.png" alt="أيقونة الأمان">
+        <h4>الأمان</h4>
+            <p>أجيد إنشاء مشاريع بها ولدي مشاريع جاهزة يمكنك الاطلاع عليها.</p>
+      </div>
+      <div class="feat-box">
+        <img src="imgs/icon6.png" alt="أيقونة التخصيص">
+        <h4>التخصيص</h4>
+            <p>أجيد إنشاء مشاريع بها ولدي مشاريع جاهزة يمكنك الاطلاع عليها.</p>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+  <!-- End features -->
+
+  <!-- Start contact us -->
+  <div class="contact">
+    <div class="overlay"></div>
+    <div class="container">
+      <h2>اتصل بنا</h2>
+      <form id="contact-form">
+        <div class="right">
+          <input type="text" placeholder="اسمك" name="username" required>
+          <input type="tel" placeholder="رقم هاتفك" name="phone" required>
+          <input type="email" placeholder="بريدك الإلكتروني" name="email" required>
+          <input type="text" placeholder="الموضوع" name="subject" required>
+        </div>
+        <div class="left">
+          <textarea name="message" placeholder="رسالتك" required></textarea>
+          <input type="submit" value="إرسال">
+        </div>
+      </form>
+    </div>
+  </div>
+  <!-- End contact us -->
+
+  <!-- Start social media -->
+  <div class="social-media">
+    <div class="container">
+      <div class="icons">
+        <span>تويتر</span>
+        <a href="https://x.com/Q6xNhc8L8lLHidF" target="_blank" aria-label="حساب تويتر">
+          <i class="fa-brands fa-x-twitter"></i>
+        </a>
+      </div>
+      <div class="icons">
+        <span>جيتهاب</span>
+        <a href="https://github.com/mahmoudbarhoom" target="_blank" aria-label="حساب جيت هاب">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+      <div class="icons">
+        <span>لينكدإن</span>
+        <a href="https://www.linkedin.com/in/mahmoud-barhoom-522181169/" target="_blank" aria-label="حساب لينكدإن">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- End social media -->
+
+  <!-- Start footer -->
+  <div class="footer">تم إنشاء هذا الموقع بواسطة محمود برهوم</div>
+  <!-- End footer -->
+
+  <script src="js/script.js"></script>
+</body>
+</html>
